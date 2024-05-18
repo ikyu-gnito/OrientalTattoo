@@ -22,15 +22,12 @@ class _LoginPagesState extends State<LoginPages> {
               TextFormField(
                 autofocus: true,
                 keyboardType: TextInputType.emailAddress,
-                style: new TextStyle(color: Colors.white, fontSize: 14),
+                style: new TextStyle(color: Colors.white, fontSize: 20),
                 decoration: InputDecoration(
                   labelText: "E-mail",
-                  label: Text
+                  labelStyle: TextStyle(color: Colors.white),
                 ),
-
-
               ),
-
           ],
         ),       
       ),
