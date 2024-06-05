@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:oriental_tattoos/home_page.dart';
+import 'package:oriental_tattoos/Pages/home_Page.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
